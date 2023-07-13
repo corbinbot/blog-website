@@ -1,0 +1,135 @@
+.main-slider {
+    position: relative;
+    z-index: 10
+}
+
+.main-slider .tp-caption {
+    z-index: 5
+}
+
+.main-slider h2 {
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #232323;
+    font-size: 48px;
+    font-family: 'Roboto slab', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px
+}
+
+.main-slider h3 {
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+.main-slider .text {
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #555;
+    font-size: 16px
+}
+
+.main-slider .tp-caption .theme-btn {
+    border-width: 2px !important;
+    color: #fff
+}
+
+.main-slider .tp-caption .theme-btn.btn-style-one:hover,
+.main-slider .tp-caption .theme-btn.btn-style-three:hover {
+    color: #48c7ec
+}
+
+.main-slider .tp-caption {
+    z-index: 5
+}
+
+.main-slider .slide-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.main-slider .tp-bannertimer,
+.main-slider .tp-dottedoverlay {
+    display: none !important
+}
+
+.main-slider .tp-bullets.preview3 .bullet {
+    background: 0 0 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border: 3px solid #48c7ec !important;
+    border-radius: 50% !important;
+    margin: 0 7px
+}
+
+.main-slider .tp-bullets.preview3 .bullet.selected,
+.main-slider .tp-bullets.preview3 .bullet:hover {
+    background: #48c7ec !important
+}
+
+.main-slider .tparrows.preview3 {
+    background: 0 0 !important;
+    width: 30px !important;
+    overflow: hidden;
+    margin-top: -55px !important;
+    height: 110px !important
+}
+
+.main-slider .tparrows.preview3::after {
+    top: 0;
+    background: rgba(255, 255, 255, .3);
+    color: #fff;
+    font-size: 18px;
+    height: 110px !important;
+    line-height: 110px;
+    width: 30px !important;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+.main-slider .tparrows.tp-leftarrow.preview3::after {
+    content: '\f104';
+    font-family: FontAwesome
+}
+
+.main-slider .tparrows.tp-rightarrow.preview3::after {
+    content: '\f105';
+    font-family: FontAwesome
+}
+
+.main-slider .tparrows.preview3.tp-leftarrow {
+    left: 0 !important
+}
+
+.main-slider .tparrows.preview3.tp-rightarrow {
+    right: 0 !important
+}
+
+.main-slider .tparrows.preview3:hover::after {
+    background: #333;
+    border-color: #333
+}
+
+.main-slider .tparrows.preview3 .tp-arr-iwrapper {
+    visibility: hidden;
+    opacity: 0;
+    display: none
+}
+
+.tp-bullets {
+    display: none
+}
